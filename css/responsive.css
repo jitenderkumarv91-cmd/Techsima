@@ -1,0 +1,217 @@
+@media(max-width:1200px) {}
+
+@media(max-width:992px) {
+    .topHeader .links a {
+        text-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .topHeader .container {
+        max-width: 100%;
+    }
+
+    .topHeader .info {
+        text-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .social-link-outer {
+        padding-left: 0px !important;
+    }
+
+    .main-heading {
+        line-height: 1;
+        font-size: 30px;
+    }
+
+    .btn-view {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+
+    #second-slide {
+        width: 80%;
+    }
+    .price-list{
+        margin-bottom: 10px;
+        width: 80%;
+    }
+}
+
+@media(max-width:768px) {
+    .topHeader div {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-link-outer {
+        padding-left: 10px !important;
+    }
+
+    .second-slider h2 {
+        font-size: 30px;
+    }
+    .portfplio-hover-1,
+    .portfplio-hover-2,
+    .portfplio-hover-3{
+        min-height: 450px;
+    }
+    .member-image {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .price-list{
+        width: 100%;
+    }
+}
+
+@media(max-width:576px) {
+    .hero-link {
+        white-space: nowrap;
+    }
+
+    .hero-link a {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+
+    .hero-section h1 {
+        font-size: 24px;
+    }
+
+    .hero-section h3 {
+        font-size: 20px;
+    }
+
+    .counter-section {
+        min-height: 400px;
+    }
+
+    .counter-outer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .counter {
+        height: 80px;
+        width: 80px;
+    }
+
+    .counter-icon {
+        font-size: 30px;
+    }
+
+    .counter-inner h3 {
+        padding: 5px 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+
+    .counter-inner p {
+        font-size: 14px;
+    }
+
+    .main-heading {
+        line-height: 1;
+        font-size: 24px;
+    }
+
+    .second-slider h2 {
+        font-size: 24px;
+    }
+
+    #second-slide {
+        width: 100%;
+    }
+
+    .hero-section a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .portfplio-hover-1,
+    .portfplio-hover-2,
+    .portfplio-hover-3{
+        max-height: 480px;
+    }
+}
+
+@media(max-width:425px) {
+    .social-link-outer {
+        padding-left: 0px !important;
+    }
+
+    .topHeader .info a {
+        white-space: nowrap;
+        font-family: 12px;
+    }
+
+    .topHeader div a {
+        font-size: 12px;
+    }
+
+    .social-links {
+        height: 20px;
+        width: 20px;
+        margin: 0px 3px;
+    }
+
+    .counter-section {
+        min-height: 400px;
+    }
+
+    .counter {
+        height: 60px;
+        width: 60px;
+    }
+
+    .counter-icon {
+        font-size: 24px;
+    }
+
+    .counter-inner h3 {
+        padding: 3px 0px;
+        font-size: 24px;
+    }
+
+    .hero-section a {
+        white-space: nowrap;
+        padding: 5px 5px;
+        font-size: 14px;
+    }
+    .portfplio-hover-1,
+    .portfplio-hover-2,
+    .portfplio-hover-3{
+        min-height: 400px;
+    }
+}
+
+@media(max-width:375px) {
+    .hero-link a {
+        font-size: 12px;
+    }
+
+    .hero-section h1 {
+        font-size: 20px;
+    }
+
+    .hero-section h3 {
+        font-size: 18px;
+    }
+
+    .hero-section a {
+        white-space: nowrap;
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:320px) {}
